@@ -7,6 +7,30 @@
 
 .centered {
     position: absolute;
-    top: 50%;
     left: 50%;
+}
+
+.separator {
+    position: absolute;
+    background-color: aqua;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.gradient-background {
+    height: 60vh; /* Adjust the height as needed */
+    background: linear-gradient(to top, dimgray, black);
+}
+
+.solid-background-color {
+    background-color: dimgray;
+}
+
+body {
+    height: 100vh; /* Ensure full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+.centered-text {
+    text-align: center;
 }

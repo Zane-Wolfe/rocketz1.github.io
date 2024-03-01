@@ -19,7 +19,7 @@
 
 .gradient-background {
     height: 60vh; /* Adjust the height as needed */
-    background: linear-gradient(to top, dimgray, black);
+    background: linear-gradient(to top, purple, green);
 }
 
 .solid-background-color {

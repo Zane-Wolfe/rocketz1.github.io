@@ -1,8 +1,9 @@
 <!DOCTYPE html>
   <html lang="en">
   <head>
-      <meta charset="UTF-8">
-      <title>Zane Wolfe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zane Wolfe</title>
     <link rel="stylesheet" href="styles.css">
     <script src="main.js"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5838175901987513"
@@ -10,45 +11,72 @@
   </head>
 
   <body>
-    <div style="height: 50vh; background-color: green">
-      <p class="centered-text" style="margin: 0; padding-top: 10vh; color: white; font-size: 10vh">Zane Wolfe's Website</p>
-      <p class="centered-text" style="margin: 0; padding-top: 0; color: white; font-size: 3vh">(very much still a work in progress!)</p>
-    </div>
-    <div class="gradient-background"></div>
-    <div style="height: 100vh" class="solid-background-color">
-      <div style="height: 20vh">
-        <p class="centered-text" style="margin: 0; color: white; font-size: 6vh">
-          Some cool links:
-          <br>
-          <a href="https://www.linkedin.com/in/zane-wolfe-3b2399272/" target="_blank">
-            My LinkedIn
-          </a>
-          <br><br>
-          Placed first in FIEA game development competition!
-          <br>
-          <a href="https://floridapoly.edu/news/articles/2024/01/012424-game-jam-champs.php" target="_blank">
-            (Florida Polytechnic Article)
-          </a>
-          <a href="https://fiea.ucf.edu/news/fiea-and-florida-polytechnic-students-win-fieas-first-game-jam/" target="_blank">
-             (UCF Article)
-          </a>
-          <br>
-        </p>
+    <div class="main-banner">
+      <div style="margin-right: auto">
+        <button id="mainButton" class="main-banner-buttons main-banner-logo">Zane Wolfe</button>
+      </div>
+      <div class="main-banner-inner-right">
+        <button id="blogButton" class="main-banner-buttons main-banner-right-buttons">Blog</button>
+        <button id="projectsButton" class="main-banner-buttons main-banner-right-buttons">Projects</button>
+        <button id="contactmeButton" class="main-banner-buttons main-banner-right-buttons">Contact Me</button>
       </div>
     </div>
-  </body>
+
+    <div class="main-background">
+      <img class="self-portrait" src="portrait.jpg" alt="Portrait">
+      <div class="separator"></div>
+      <div class="self-portrait-text">
+        <h2>About Me</h2>
+        <p>My name is Zane Wolfe and I grew up and currently live in central florida. </p>
+        <p>I am an undergraduate student attending Florida Polytechnic University studying towards my Bachelor's of Science in Computer Science.</p>
+        <p>Since early high school, I've been fascinated with every aspect of Computer Science from Data Analytics to Game Development to IOT.</p>
+        <p>I love learning, creating, and collaborating to make cool things with cool people and am always up for a new challenge.</p>
+        <p>This website contains my blog where I post about my activities and projects I've created.</p>
+        <p>Please feel free to reach out to me if you have any questions or just want to chat :D</p>
+      </div>
+    </div>
 
 
-<!--  <body>-->
-<!--    <div id="main-center" class="centered">-->
-<!--      <div style="font-size: 40px">Hello</div>-->
-<!--      <label>-->
-<!--        <input  type="text" style="text-align: center; background-color: gainsboro" id="name" value="Enter your name" onblur="setDefaultNameField('off')" onclick="setDefaultNameField('on')">-->
-<!--      </label>-->
-<!--      <br>-->
-<!--      <button class="button" id="button" onclick="deleteStartDiv()">Start</button>-->
+
+<!--    <div class="main-background">-->
+<!--      <img class="self-portrait" src="portrait.jpg" alt="Description of the image">-->
+<!--      <h2 class="self-portrait-text">Hello! My name is Zane Wolfe.-->
+<!--        I am a student currently studying Computer Science at Florida Polytechnic University.-->
+<!--      </h2>-->
 <!--    </div>-->
-<!--    <div id="main-text"></div>-->
-<!--  </body>-->
 
+
+
+
+
+
+
+<!--    <div style="height: 50vh; background-color: green">-->
+<!--        <p class="centered-text" style="margin: 0; padding-top: 10vh; color: white; font-size: 10vh">Zane Wolfe's Website</p>-->
+<!--        <p class="centered-text" style="margin: 0; padding-top: 0; color: white; font-size: 3vh">(very much still a work in progress!)</p>-->
+<!--    </div>-->
+<!--    <div class="gradient-background"></div>-->
+<!--    <div style="height: 100vh" class="solid-background-color">-->
+<!--      <div style="height: 20vh">-->
+<!--        <p class="centered-text" style="margin: 0; color: white; font-size: 6vh">-->
+<!--          Some cool links:-->
+<!--          <br>-->
+<!--          <a href="https://www.linkedin.com/in/zane-wolfe-3b2399272/" target="_blank">-->
+<!--            My LinkedIn-->
+<!--          </a>-->
+<!--          <br><br>-->
+<!--          Placed first in FIEA game development competition!-->
+<!--          <br>-->
+<!--          <a href="https://floridapoly.edu/news/articles/2024/01/012424-game-jam-champs.php" target="_blank">-->
+<!--            (Florida Polytechnic Article)-->
+<!--          </a>-->
+<!--          <a href="https://fiea.ucf.edu/news/fiea-and-florida-polytechnic-students-win-fieas-first-game-jam/" target="_blank">-->
+<!--             (UCF Article)-->
+<!--          </a>-->
+<!--          <br>-->
+<!--        </p>-->
+<!--      </div>-->
+<!--    </div>-->
+  </body>
 </html>
+<script src="banner-navigation.js"></script>

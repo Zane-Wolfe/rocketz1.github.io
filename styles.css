@@ -5,21 +5,106 @@
     text-align: center;
 }
 
+.main-banner {
+    background: linear-gradient(to right, #6FB3B8, #BADFE7);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.main-banner-logo {
+    margin-left: 35px;
+    background-color: #BADFE7;
+    min-width: 150px;
+}
+
+.main-banner-inner-right {
+    display: flex;
+    gap: 15px;
+}
+
+.main-banner-buttons {
+    height: 40px;
+    width: 85px;
+}
+
+.main-banner-right-buttons {
+    border-radius: 10px;
+    background-color: #C2EDCE;
+}
+
+.main-banner-blog {
+
+}
+
+.main-banner-projects {
+
+}
+
+.main-banner-contact-me{
+
+}
+
+.main-background {
+    background: #F6F6F2;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.self-portrait {
+    top: 100px;
+    width: 30vh; /* Set the width of the image to 50% of its original size */
+    height: auto; /* Maintain the aspect ratio */
+    position: absolute; /* Position the image absolutely */
+    left: 45px; /* Distance from the left of the page */
+    padding-top: 20px;
+    border-color: #6FB3B8;
+    border-radius: 70px;
+    flex: 0 0 auto;
+}
+
+.separator {
+    width: 10px; /* Adjust thickness of the line */
+    height: 300px; /* Adjust height of the line */
+    background-color: #000; /* Color of the line */
+    margin-left: 270px; /* Adjust as needed */
+    position: absolute; /* Position the image absolutely */
+    top: 100px;
+}
+
+
+.self-portrait-text {
+    flex: 1 1 auto;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    right: 10px;
+    margin-top: 25px;
+}
+
+
+.vertical-center {
+    position: relative;
+}
+
 .centered {
     position: absolute;
     left: 50%;
 }
 
-.separator {
-    position: absolute;
-    background-color: aqua;
-    padding-top: 100px;
-    width: 100%;
-}
+/*.separator {*/
+/*    position: absolute;*/
+/*    background-color: aqua;*/
+/*    padding-top: 100px;*/
+/*    width: 100%;*/
+/*}*/
 
 .gradient-background {
     height: 60vh; /* Adjust the height as needed */
-    background: linear-gradient(to top, mediumpurple, green);
+    background: linear-gradient(to top, rebeccapurple, green);
 }
 
 .solid-background-color {
@@ -33,4 +118,4 @@ body {
 
 .centered-text {
     text-align: center;
-}
+}   

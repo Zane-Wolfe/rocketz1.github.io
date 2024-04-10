@@ -7,7 +7,6 @@
 
 .main-banner {
     background: linear-gradient(to right, #6FB3B8, #BADFE7);
-
     display: flex;
     justify-content: space-between;
     align-items: center;
